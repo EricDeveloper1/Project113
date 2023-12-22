@@ -1,0 +1,41 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Personalize Frame p5.js</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <style type="text/css">
+    h3 {
+      font-size: 25px !important;
+      color: skyblue;
+    }
+
+    canvas {
+      border: 1px solid black;
+      margin-top: 125px;
+    }
+  </style>
+</head>
+
+<body>
+  <center>
+    <div class="container">
+      <h3>p5.js Project</h3>
+      <input class="form-control" id="circle_color" type="text" placeholder="Enter Circle Color">
+      <input class="form-control" id="rect_color" type="text" placeholder="Enter Rectangle Color">
+      <input class="form-control" id="ell_color" type="text" placeholder="Enter Ellipse Color">
+      <input class="form-control" id="tri_color" type="text" placeholder="Enter Triangle Color">
+      <br>
+      <button id="snapshot" onclick="take_snapshot();" class="btn btn-warning">Take Snapshot</button>
+    </div>
+  </center>
+  <script src="main.js"></script>
+</body>
+
+</html>
